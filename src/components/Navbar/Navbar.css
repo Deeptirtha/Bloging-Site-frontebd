@@ -1,0 +1,99 @@
+
+#navbarProfile {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+
+.navbarIcons {
+    flex: 1;
+    text-align: center;
+}
+
+#navbarNav {
+    flex: 8;
+   justify-content: center;
+}
+
+#navbarDP {
+    margin-right: 2.5rem;
+    flex: 0.3;
+    text-align: center;
+    display: flex;
+}
+
+.nav-item >a{ 
+   font-weight: bold;
+}
+
+.nav-item >a:hover{
+    border-bottom: 1px solid white;
+}
+
+.navbarBigBox{
+    background-color: rgb(80, 28, 213);
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+#search{
+    margin-right: 4rem;
+}
+
+#navbarDP >a{
+    font-weight: bold;
+    
+}
+
+#search{
+    cursor: pointer;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    
+}
+
+
+#loginIcon{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#loginIcon:hover{
+   border: 1px solid white;
+}
+
+#search:hover{
+    background-color: #0d6efd;
+}
+
+.navbarIcons a >i{
+    color: white;
+    margin-inline: 0.3rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+.nav-item >a{
+    margin-inline: 5px;
+    font-size: 1rem;
+    color: wheat;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+}

@@ -1,0 +1,39 @@
+#bigBoxContact{
+    height: 100vh;
+    border: 0.2px solid white;
+    background-image: url(https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+   
+}
+
+
+.Contact{
+    height: fit-content;
+    width: 25rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 19, 200);
+    color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+
+#btnContact{
+    background-color: rgb(57, 138, 208);
+    color: rgb(251, 251, 253);
+    margin-top:0.5rem;
+}
+
+#btnContact:hover{
+    background-color: rgb(86, 202, 105);
+}
+
+
+#heading{
+    margin: 1rem;
+    margin-left: 42%;
+    color: rgb(19, 19, 200);
+}

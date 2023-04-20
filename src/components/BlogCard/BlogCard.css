@@ -1,0 +1,20 @@
+
+
+#cardBox{
+    padding-block:0.5rem;
+    padding-inline: 1.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+
+.card{
+    margin: 14px;  
+}
+
+.card-body{
+    overflow:hidden;
+}
+
+

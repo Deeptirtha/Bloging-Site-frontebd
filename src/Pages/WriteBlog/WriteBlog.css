@@ -1,0 +1,67 @@
+.addImgIcon {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(158, 157, 157);
+    cursor: pointer;
+}
+
+.WriteBlog {
+    padding: 5rem;
+    padding-inline: 10rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#blogImage {
+    width: 100%;
+    height: 20rem;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+
+.inputBlog {
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+
+.btn {
+    width: 5rem;
+    margin: 10px auto;
+}
+
+
+
+#addBlogImg {
+    display: none;
+}
+
+.tagsBox {
+    margin-block: 1rem;
+}
+
+.tagsBox >input {
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    border-radius: 0.5rem;
+    margin-right: 7rem;
+}
+
+#category {
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+
+.WriteBlog >label >i{
+    margin: 0rem auto;
+    margin-bottom: 1rem;
+}

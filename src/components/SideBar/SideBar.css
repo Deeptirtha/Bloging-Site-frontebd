@@ -1,0 +1,37 @@
+#SideBar{
+    background-image: url(https://i.pinimg.com/originals/18/06/02/180602736d3f6a3bdd19f17d19a4b1fb.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    border-radius: 0.5rem;
+    width: fit-content;
+    height: 25rem;
+    margin-top: 1.2rem;
+    position:sticky;
+    top: 5rem;
+    right: 2.3rem;
+    padding: 1rem;
+    padding-inline: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+#categoryBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.subcategoaryBox{
+    margin: 0.2rem;
+}
+
+#headingCategory{
+    margin-left: 2rem;
+    margin-bottom: 1.9rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.subcategoaryBox >span{
+    cursor: pointer;
+    margin-right: 0.3rem;
+}

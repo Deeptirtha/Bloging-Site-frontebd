@@ -1,0 +1,38 @@
+#cardBox{
+    padding-block:0.5rem;
+    padding-inline: 1.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+
+.card{
+    margin: 14px;
+    
+}
+
+.card-body{
+    overflow:hidden;
+}
+
+.myblogBox{
+    display: flex;
+}
+
+#SideBar1{
+    background-image: url(https://media.istockphoto.com/id/1130150680/photo/blog-and-information-website-concept-workplace-background-with-text.jpg?s=612x612&w=0&k=20&c=BtknpmORYmgMHN5Qty7N0o5mvsk204BG-q4oR8gFl_g=);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    border-radius: 0.5rem;
+    width: 23rem;
+    height: 25rem;
+    margin-top: 1.2rem;
+    position:sticky;
+    top: 5rem;
+    right: 2.3rem;
+    padding: 1rem;
+    padding-inline: 2rem;
+    color: white;
+    font-weight: bold;
+}

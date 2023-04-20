@@ -1,0 +1,19 @@
+.blogHeading{
+    
+    text-align: center;
+    padding: 10px;
+}
+
+
+.blogHeading >h1{
+    position:  sticky;
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+
+.homePageParts{
+    display: flex;
+    margin-left: 1rem;
+}
+

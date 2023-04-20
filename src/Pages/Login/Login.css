@@ -1,0 +1,57 @@
+#bigBox1 {
+    height: 100vh;
+    border: 0.2px solid white;
+    background-image: url(https://www.shutterstock.com/image-photo/blog-concept-cloud-chart-print-260nw-249575503.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 100vh;
+   
+}
+
+.loginBox {
+    /* border: 2px solid red; */
+    width: 28%;
+    height: 50vh;
+    margin: 7% 62%;
+    color: #115fbc;
+    font-weight: bold;
+}
+
+#btn1 {
+    margin-left: 13%;
+    background-color: rgb(202, 38, 217);
+    margin-top: 10%;
+    border: 1px solid rgb(202, 38, 217);
+    width: 80%;
+}
+
+.form-control {
+    border: 1px solid #115fbc;
+}
+
+.headingLogin {
+    /* border: 2px solid red; */
+    width: fit-content;
+    height: fit-content;
+    margin: 4% 62%;
+    color: #115fbc;
+    font-weight: bold;
+}
+
+#headingLogin {
+    /* border: 2px solid red; */
+    width: fit-content;
+    height: fit-content;
+    margin: 15% 41%;
+    font-weight: bold;
+}
+
+
+#login {
+    font-weight: bold;
+    color: rgb(202, 38, 217);
+}
+
+#btn1:hover {
+    border: 1px solid black;
+    background-color: rgb(210, 53, 225);
+}

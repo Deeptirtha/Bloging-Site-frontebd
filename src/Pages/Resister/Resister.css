@@ -1,0 +1,76 @@
+#bigBox{
+    height: 100vh;
+    border: 0.2px solid white;
+    
+    background-image: url(https://www.shutterstock.com/image-photo/blog-concept-cloud-chart-print-260nw-249575503.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.userResister{
+    padding: 2%;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+    width: 35%;
+    height: fit-content;
+    color: white;
+    font-weight: bold;
+    margin-inline: 30%;
+   text-align: end;
+   border-radius: 10px;
+   background-color: rgb(202, 38, 217);
+   box-shadow: 10% black;
+   
+}
+
+#userResister{
+    width: fit-content;
+    /* border: 2px solid red; */
+    color: white;
+    margin-inline: 37%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.inputs{
+    height: 30px;
+    padding:1px;
+    border-radius: 5px;
+    margin: 8px;
+    width: 70%;
+}
+
+#logins{
+    margin-inline: 44%;
+    margin-block: 50px;
+    
+}
+
+#btn{
+    margin-right: 25%;
+    background-color: #115fbc;
+    margin-block: 6%;
+    border: 1px solid rgb(19, 66, 209);
+    width: 50%;
+    
+}
+
+#btn:hover{
+    background-color:#2679dd ;
+}
+
+#title{
+    
+    margin-right: 51%;
+   
+}
+
+#select{
+    height: 22px;
+    margin: 2vh;
+    border-radius: 5px;
+}
+
+#profilePicture{
+    border: 2px solid white;
+}

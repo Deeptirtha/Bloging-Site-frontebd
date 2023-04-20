@@ -1,0 +1,46 @@
+.SinglePost {
+    padding: 4rem;
+    padding-inline: 10rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.BlogDetails>h1 {
+    display: table;
+    margin: 1rem auto;
+}
+
+.BlogDetails>p {
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
+.BlogDetails>p::first-letter {
+    font-size: 2rem;
+}
+
+#blogImage1 {
+    width: 100%;
+    height: 25rem;
+}
+
+
+#authorNameBox {
+    display: flex;
+    margin-block: 1.5rem;
+    background-color: rgb(117, 204, 143);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: large;
+}
+
+#iconBox10>i {
+    flex: 9;
+    margin-inline: 1.5rem;
+    cursor: pointer;
+}
+
+#iconBox10{
+    margin-left: 65rem;
+}

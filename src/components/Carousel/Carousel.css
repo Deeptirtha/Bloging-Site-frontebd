@@ -1,0 +1,7 @@
+.carousel-inner{
+    height: 23rem;
+}
+
+.carousel-item >img{
+    height: 23rem;
+}
